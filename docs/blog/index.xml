@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on UnitTesters.com</title>
+    <link>https://unittesters.com/blog/</link>
+    <description>Recent content in Blogs on UnitTesters.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Sep 2016 14:20:20 -0400</lastBuildDate>
+    
+	<atom:link href="https://unittesters.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unit Testing DataWeave JSON output</title>
+      <link>https://unittesters.com/blog/2016/07/20/Unit-Testing-DataWeave-JSON-output/</link>
+      <pubDate>Tue, 27 Sep 2016 14:20:20 -0400</pubDate>
+      
+      <guid>https://unittesters.com/blog/2016/07/20/Unit-Testing-DataWeave-JSON-output/</guid>
+      <description>In the previous post about unit testing DataWeave scripts with MUnit and JUnit, I showed you how to verify Java and CSV output of DataWeave scripts. We also looked at some error troubleshooting in dataweave scripts.
+Now, lets look at DataWeave with JSON output and how we can test the content of our output with MUnit and JUnit.
+DataWeave Script Let&amp;rsquo;s use the same DataWeave script from our previous post and change the output type to application/json.</description>
+    </item>
+    
+    <item>
+      <title>Overriding Properties in MUnit XML and Java for testing</title>
+      <link>https://unittesters.com/blog/2016/07/24/overriding-properties-in-munit-xml-java-for-testing/</link>
+      <pubDate>Sun, 24 Jul 2016 22:41:09 -0400</pubDate>
+      
+      <guid>https://unittesters.com/blog/2016/07/24/overriding-properties-in-munit-xml-java-for-testing/</guid>
+      <description>It is very common for any mule application to use external properties files. In this post, we will see how we can override properties values for testing. We will also cover how we can write to temporary folder during munit test, disable connector mocking and asserting file existence.
+For demonstration purpose, we will have a flow that uses DataWeave to convert xml file into csv and writes to an output folder using file:outbound-endpoint.</description>
+    </item>
+    
+    <item>
+      <title>Unit Testing Mule DataWeave Scripts</title>
+      <link>https://unittesters.com/blog/2016/07/20/Unit-Testing-Mule-DataWeave-Scripts-with-MUnit/</link>
+      <pubDate>Wed, 20 Jul 2016 13:49:51 -0400</pubDate>
+      
+      <guid>https://unittesters.com/blog/2016/07/20/Unit-Testing-Mule-DataWeave-Scripts-with-MUnit/</guid>
+      <description>DataWeave is a powerful transformation language introduced with Mule Enterprise Edition 3.7. It allows you to transform data from one format to another and supports CSV, XML, JSON, Flat/Fixed Width (v3.8+) &amp;amp; Java. You can look at these DataWeave Examples to see it in action.
+Like any other code of programming world, it is always a good idea to unit test the DataWeave script you write. In this post, we will see how we can unit test the DataWeave code.</description>
+    </item>
+    
+    <item>
+      <title>Mule MUnit testing with variables and properties</title>
+      <link>https://unittesters.com/blog/mule-munit-testing-variables-properties/</link>
+      <pubDate>Mon, 30 May 2016 22:15:08 -0400</pubDate>
+      
+      <guid>https://unittesters.com/blog/mule-munit-testing-variables-properties/</guid>
+      <description>Flow Variables, Session Variables, Inbound/Outbound properties are very common in mule flows. Mule MUnit framework makes it very easy to unit test any Mule Flow and subflows. In this post, we will see how we can unit test our flows involving variables and properties.
+Let’s consider a simple mule flow that reads a file and then sets a flow variable and session variable.
+&amp;lt;flow name=&amp;quot;SampleMuleFlow&amp;quot;&amp;gt; &amp;lt;file:inbound-endpoint path=&amp;quot;input&amp;quot; responseTimeout=&amp;quot;10000&amp;quot; doc:name=&amp;quot;File&amp;quot;/&amp;gt; &amp;lt;set-variable variableName=&amp;quot;fileName&amp;quot; value=&amp;quot;#[message.</description>
+    </item>
+    
+    <item>
+      <title>What is Unit Testing?</title>
+      <link>https://unittesters.com/blog/what-is-unit-testing/</link>
+      <pubDate>Sat, 21 May 2016 22:11:35 -0400</pubDate>
+      
+      <guid>https://unittesters.com/blog/what-is-unit-testing/</guid>
+      <description>Unit Testing is a development process in which smallest unit of an application code is tested to ensure expected working. Kent Beck developed Extreme Programming (XP), a software development methodology and unit testing evolved as a part of that methodology. In programming context, an unit could be a class, method, function or other smallest segment of code that can be tested and verified in isolation.</description>
+    </item>
+    
+  </channel>
+</rss>

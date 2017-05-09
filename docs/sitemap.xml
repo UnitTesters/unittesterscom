@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://unittesters.com/blog/2016/07/20/Unit-Testing-DataWeave-JSON-output/</loc>
+    <lastmod>2016-09-27T14:20:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/blog/2016/07/24/overriding-properties-in-munit-xml-java-for-testing/</loc>
+    <lastmod>2016-07-24T22:41:09-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/blog/2016/07/20/Unit-Testing-Mule-DataWeave-Scripts-with-MUnit/</loc>
+    <lastmod>2016-07-20T13:49:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/blog/mule-munit-testing-variables-properties/</loc>
+    <lastmod>2016-05-30T22:15:08-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/blog/what-is-unit-testing/</loc>
+    <lastmod>2016-05-21T22:11:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/about/</loc>
+    <lastmod>2016-01-01T14:36:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/blog/</loc>
+    <lastmod>2016-09-27T14:20:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/categories/MUnit/</loc>
+    <lastmod>2016-09-27T14:20:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/page/</loc>
+    <lastmod>2016-01-01T14:36:14-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/categories/Unit-Testing/</loc>
+    <lastmod>2016-05-21T22:11:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://unittesters.com/</loc>
+    <lastmod>2016-09-27T14:20:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

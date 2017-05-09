@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on UnitTesters.com</title>
+    <link>https://unittesters.com/page/</link>
+    <description>Recent content in Pages on UnitTesters.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2016 14:36:14 -0400</lastBuildDate>
+    
+	<atom:link href="https://unittesters.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About UnitTesters.com and Usage Policy</title>
+      <link>https://unittesters.com/about/</link>
+      <pubDate>Fri, 01 Jan 2016 14:36:14 -0400</pubDate>
+      
+      <guid>https://unittesters.com/about/</guid>
+      <description>All content on this website is personal opinion of the author of the content and DO NOT represent their employers or anyone else, unless clearly noted.
+ All information on this website can be used freely for learning purpose. No content on this website is copyright of us, unless otherwise noted. We do refer and sometimes use contents from other blogs, websites etc but we do not intent to infringe any copyright or other legal protection.</description>
+    </item>
+    
+  </channel>
+</rss>
