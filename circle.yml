@@ -8,6 +8,12 @@ machine:
     - git config --global user.name "CircleCI"
     - git config --global user.email "circleci@circleci.com"
 
+dependencies:
+  pre:
+    - mkdir ~/tmp
+    - wget -O ~/tmp/hugo_0.20.7_Linux-64bit.tar.gz https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.tar.gz
+    - cd ~/tmp && tar xvzf ~/tmp/hugo_0.20.7_Linux-64bit.tar.gz
+    - mv ~/tmp/hugo ~/bin/hugo
 
 test:
   override:
