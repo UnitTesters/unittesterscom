@@ -12,6 +12,7 @@ dependencies:
   pre:
     - wget https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.tar.gz
     - tar xzf hugo_0.20.7_Linux-64bit.tar.gz
+    - ls -ltr
     - mv hugo_0.20.7_Linux-64bit ~/bin/hugo
 
 test:
