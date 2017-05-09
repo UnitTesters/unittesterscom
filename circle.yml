@@ -12,7 +12,7 @@ dependencies:
   pre:
     - mkdir ~/tmp
     - wget -O ~/tmp/hugo_0.20.7_Linux-64bit.tar.gz https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.tar.gz
-    - cd ~/tmp && tar xzf hugo_0.20.7_Linux-64bit.tar.gz
+    - cd ~/tmp && tar xzf ~/tmp/hugo_0.20.7_Linux-64bit.tar.gz
     - ls -ltr ~/tmp && ls -ltr ~/tmp/hugo*/
     - mv ~/tmp/hugo_0.20.7_Linux-64bit ~/bin/hugo
 
