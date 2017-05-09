@@ -10,9 +10,9 @@ machine:
 
 dependencies:
   pre:
-    - wget -O ~/tmp/hugo_0.20.7_Linux-64bit.tar.gz https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.tar.gz
-    - cd ~/tmp && tar xzf hugo_0.20.7_Linux-64bit.tar.gz
-    - mv ~/tmp/hugo_0.20.7_Linux-64bit/hugo_0.20.7_Linux-64bit ~/bin/hugo
+    - wget https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.tar.gz
+    - tar xzf hugo_0.20.7_Linux-64bit.tar.gz
+    - mv hugo_0.20.7_Linux-64bit ~/bin/hugo
 
 test:
   override:
