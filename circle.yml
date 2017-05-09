@@ -1,0 +1,32 @@
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init --recursive
+
+machine:
+  pre:
+    - git config --global user.name "CircleCI"
+    - git config --global user.email "circleci@circleci.com"
+
+dependencies:
+  pre:
+    - wget -O ~/tmp/hugo_0.20.7_Linux-64bit.tar.gz https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.tar.gz
+    - cd ~/tmp && tar xzf hugo_0.20.7_Linux-64bit.tar.gz
+    - mv ~/tmp/hugo_0.20.7_Linux-64bit/hugo_0.20.7_Linux-64bit ~/bin/hugo
+
+test:
+  override:
+    - hugo -v
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - rm -rf docs/*
+      - hugo -d docs
+      - cd docs
+      - git add -A .
+      - git commit --message "Generated site on $(date)"
+      - git push origin master
+      - cd ..
+      
